@@ -1,0 +1,454 @@
+h2, h3, h1{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p, a, label{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+#announcement{
+    background-color: #fdaed8;
+    color: white;
+    text-align: center;
+    padding: 0.5%;
+}
+
+#headerSection{
+    display: flex;
+    flex-direction: row;
+    background-color: #fdf6fa;
+    padding: 1% 20%;
+}
+
+#headerLogo{
+    width: 40%;
+}
+
+#headerLogo img{
+    width: 175px;
+    height: auto;
+}
+
+#headerNav{
+    /* display: flex;
+    flex-direction: row; */
+    width: 80%;
+    margin: auto 0;
+    /* align-items: center;
+    justify-content: flex-end; */
+}
+
+/* #headerNav h1{
+    font-size: 15px;
+    margin: 0 1%;
+} */
+
+ul{
+    margin: 0;
+
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    float: left;
+    width: 104px;
+    height: 20px;
+    display: block;
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: #fdf6fa;
+}
+
+ul li a:hover{
+    background-color: #fdaed8;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+/* section{
+    padding: 0 19%;
+} */
+
+/* #carouselSlide{
+    width: 60%;
+    margin: 5% auto;
+    border: 5px solid;
+    overflow: hidden;
+}
+
+#carouselImages{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#carouselImages img{
+    max-width: 100%;
+} */
+
+#slider{
+    overflow: hidden;
+    margin: 3% 20%;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+#mainSection{
+    padding: 0 20%;
+}
+
+.itemRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+
+.resItemRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.itemDetail{
+    width: 180px;
+}
+
+.itemDetail h3{
+    font-size: 12px;
+    margin: 2% 0;
+}
+
+.itemDetail p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.itemDetail img{
+    width: 180px;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #3f3038;
+    color: white;
+    padding: 1% 0;
+}
+
+footer h1{
+    margin: 0;
+}
+
+/* registration */
+#registrationPage{
+    background-color: #fdaed8;
+}
+
+::placeholder{
+    color: #fdaed8;
+}
+
+#txtDOB{
+    color: #fdaed8;
+}
+
+select{
+    color: #fdaed8;
+}
+
+option{
+    color: #fdaed8;
+}
+
+form{
+    padding: 3% 20%;
+}
+
+.formRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.leftSideForm{
+    width: 50%;
+}
+.rightSideForm{
+    width: 50%;
+}
+
+label{
+    /* margin: 1% 0; */
+}
+
+.textArea{
+    width: 80%;
+    border-style: none;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+#rbGender{
+    margin-top: 2%;
+}
+
+#btnSection{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#btnRegister{
+    background-color: #3f3038;
+    color: white;
+    width: 50%;
+    padding: 1%;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#lblError{
+    color: red;
+}
+
+/* Skin Care */
+#headline{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+#headlineTitle{
+    width: 40%;
+}
+
+#headlineNav{
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
+
+#headlineNav ul li{
+    /* float: left;
+    width: 100px;
+    height: 20px;
+    display: block;
+    text-align: center; */
+}
+
+#headlineNav ul li a{
+    /* text-decoration: none;
+    color: black;
+    display: block;
+    background-color: white; */
+    border-radius: 10px;
+}
+
+#headlineNav ul li a:hover{
+    background-color: #fdaed8;
+}
+
+/* ul li ul li{
+    display: none;
+} */
+
+/* ul li:hover ul li{
+    display: block;
+} */
+
+#pageController{
+    text-align: right;
+    margin-bottom: 3%;
+}
+
+#pageController a{
+    color: #3f3038;
+    text-decoration: none;
+}
+
+/* Makeup */
+
+
+/* Promotion */
+.promoDetail{
+    border: none;
+    background-color: #f7c2de;
+    border-radius: 10px;
+    padding: 1% 5%;
+    margin: 2% 0;
+}
+
+.promoDetail img{
+    width: 3%;
+    height: auto;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+#promoTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px){
+    #headerSection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #headerLogo{
+        margin: auto;
+    }
+
+    #headerLogo img{
+        width: 100px;
+        height: auto;
+    }
+
+    #headerNav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* #carouselSlide{
+        width: 60%;
+        margin: 5% auto;
+        border: 5px solid;
+        overflow: hidden;
+    }
+
+    #carouselImages{
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #carouselImages img{
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    } */
+
+    #slider{
+        margin: 5% 10%;
+    }
+
+    .itemRow{
+        flex-direction: column;
+    }
+
+    .resItemRow{
+        margin: 3% 0;
+    }
+
+    .itemDetail{
+        width: 150px;
+    }
+
+    .itemDetail h3{
+        font-size: 12px;
+        margin: 2% 0;
+    }
+
+    .itemDetail p{
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .itemDetail img{
+        width: 150px;
+        justify-content: center;
+    }
+
+    #headline{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #headlineNav{
+    }
+
+    #headlineNav ul{
+        display: flex;
+        flex-direction: row;
+    }
+}
